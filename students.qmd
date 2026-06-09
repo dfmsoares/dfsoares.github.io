@@ -1,0 +1,138 @@
+---
+title: "Students"
+description: "Current and past students supervised by Diogo F. Soares."
+lang: en
+---
+
+```{=html}
+<div class="header page-header">
+  <div class="subtitle">Assitant Professor. Researcher.</div>
+  <h1>Diogo F. Soares</h1>
+  <img src="images/diogo.jpg" alt="Diogo Soares" class="profile-img" />
+</div>
+```
+
+::: {.content-page}
+
+::: {.page-heading-row}
+[<ion-icon name="arrow-back-outline"></ion-icon>](index.html){.back-home aria-label="Back to home"}
+
+# Students {.page-title}
+:::
+
+::: {.content-card}
+## Current Students
+
+::: {.student-list}
+
+::: {.student-row}
+::: {.student-name}
+Tian Yining
+:::
+
+::: {.student-project}
+Spatial environmental factor analysis method based on multimodal large models
+:::
+
+::: {.student-program}
+Environmental Engineering (MSc)
+:::
+:::
+
+::: {.student-row}
+::: {.student-name}
+Diana Santos
+:::
+
+::: {.student-project}
+Data visualization of patient-centric disease dynamics: Insights into Parkinson's Disease
+:::
+
+::: {.student-program}
+Data Science (MSc)
+:::
+:::
+
+::: {.student-row}
+::: {.student-name}
+Rui Correia
+:::
+
+::: {.student-project}
+Pattern-centric Learning Models for Heterogeneous Longitudinal Data
+:::
+
+::: {.student-program}
+Informatics Engineering (MSc)
+:::
+:::
+
+::: {.student-row}
+::: {.student-name}
+Diogo Barreta
+:::
+
+::: {.student-project}
+Integrating Multimodal Parkinson's Data for Learning Predictive Models
+:::
+
+::: {.student-program}
+Data Science (MSc)
+:::
+:::
+
+::: {.student-row}
+::: {.student-name}
+Sebastiao Cancela
+:::
+
+::: {.student-project}
+Parkinson's Patient Trajectories Profiling
+:::
+
+::: {.student-program}
+Data Science (MSc)
+:::
+:::
+
+::: {.student-row}
+::: {.student-name}
+Rafael Francisco
+:::
+
+::: {.student-project}
+GenAI Interview Buddy
+:::
+
+::: {.student-program}
+Informatics Engineering (MSc)
+:::
+:::
+
+:::
+:::
+
+::: {.content-card}
+## Past Students
+
+::: {.student-list}
+
+::: {.student-row}
+::: {.student-name}
+Raquel Domingos
+:::
+
+::: {.student-project}
+Improvement of Anonymization Technologies for Unstructured Data Contexts
+:::
+
+::: {.student-program}
+Informatics Engineering (MSc)
+:::
+:::
+
+:::
+:::
+
+
+:::

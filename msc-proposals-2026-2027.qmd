@@ -1,0 +1,265 @@
+---
+title: "MSc Proposals 2026/2027"
+description: "MSc thesis proposal announcement for the academic year 2026/2027."
+lang: en
+---
+
+```{=html}
+<div class="header page-header">
+  <div class="subtitle">Assitant Professor. Researcher.</div>
+  <h1>Diogo F. Soares</h1>
+  <img src="images/diogo.jpg" alt="Diogo Soares" class="profile-img" />
+</div>
+```
+
+::: {.content-page}
+
+::: {.page-heading-row}
+[<ion-icon name="arrow-back-outline"></ion-icon>](index.html){.back-home aria-label="Back to home"}
+
+# MSc Proposals 2026/2027 {.page-title}
+:::
+
+::: {.content-card}
+## Overview
+
+MSc thesis proposals for the academic year 2026/2027 focus on machine learning methods for biomedical and healthcare data, with an emphasis on interpretable, robust, and clinically meaningful models.
+:::
+
+::: {.proposal-index}
+## Proposal Index
+
+::: {.proposal-index-list}
+::: {.proposal-index-item}
+[01](#learning-explainable-models-for-chronic-kidney-disease-progression-prediction){.proposal-index-number}
+
+[Learning Explainable Models for Chronic Kidney Disease Progression Prediction](#learning-explainable-models-for-chronic-kidney-disease-progression-prediction)
+:::
+
+::: {.proposal-index-item}
+[02](#low-cost-ml-screening-for-undiagnosed-chronic-kidney-disease){.proposal-index-number}
+
+[Low-Cost ML Screening for Undiagnosed Chronic Kidney Disease](#low-cost-ml-screening-for-undiagnosed-chronic-kidney-disease)
+:::
+
+::: {.proposal-index-item}
+[03](#supervised-triclustering-for-ckd-progression-patterns){.proposal-index-number}
+
+[Supervised Triclustering for CKD Progression Patterns](#supervised-triclustering-for-ckd-progression-patterns)
+:::
+
+::: {.proposal-index-item}
+[04](#triclustering-of-csf-proteomics-to-discover-molecular-progression-subtypes-in-parkinsons-disease){.proposal-index-number}
+
+[Triclustering of CSF Proteomics to Discover Molecular Progression Subtypes in Parkinson's Disease](#triclustering-of-csf-proteomics-to-discover-molecular-progression-subtypes-in-parkinsons-disease)
+:::
+
+::: {.proposal-index-item}
+[05](#learning-classifiers-from-longitudinal-clinical-data-using-discriminative-triclusters){.proposal-index-number}
+
+[Learning Classifiers from Longitudinal Clinical Data using Discriminative Triclusters](#learning-classifiers-from-longitudinal-clinical-data-using-discriminative-triclusters)
+:::
+:::
+:::
+
+::: {.proposal-card}
+::: {.proposal-kicker}
+Proposal 01
+:::
+
+## Learning Explainable Models for Chronic Kidney Disease Progression Prediction
+
+::: {.proposal-section}
+### Intro
+
+Chronic Kidney Disease (CKD) progression is highly variable: some patients remain stable for years, while others experience rapid eGFR decline, transition to advanced CKD stages, or require dialysis. Current clinical monitoring relies heavily on repeated laboratory tests and clinician judgement, but machine learning may help identify high-risk patients earlier by combining demographic, clinical, laboratory, and longitudinal patterns. This project will develop an explainable ML framework to predict rapid CKD progression and dialysis risk, supporting earlier intervention and better patient prioritization.
+:::
+
+::: {.proposal-section}
+### Objectives
+
+- Develop supervised ML models to predict rapid CKD progression.
+- Predict clinically relevant outcomes such as rapid eGFR decline, CKD stage transition, and dialysis initiation.
+- Compare static baseline models with longitudinal feature-based models.
+- Identify the most important predictors of CKD progression using explainability methods.
+- Evaluate model performance, calibration, and clinical usefulness.
+- Assess whether the model can support risk-based patient monitoring.
+:::
+
+::: {.proposal-section}
+### Work Plan
+
+1. Review literature on CKD progression prediction, explainable ML, and clinical risk models.
+2. Prepare a longitudinal dataset, MIMIC-IV.
+3. Define CKD progression outcomes, including rapid eGFR decline, stage transition, and dialysis initiation.
+4. Engineer baseline and longitudinal features from laboratory, demographic, and clinical variables.
+5. Train, tune, and evaluate ML models, including interpretable and ensemble methods.
+6. Write the thesis and prepare results for publication in a conference or journal.
+:::
+:::
+
+::: {.proposal-card}
+::: {.proposal-kicker}
+Proposal 02
+:::
+
+## Low-Cost ML Screening for Undiagnosed Chronic Kidney Disease
+
+::: {.proposal-section}
+### Intro
+
+CKD is often underdiagnosed, especially among people with diabetes or hypertension, who are at higher risk of kidney damage. Standard CKD detection requires laboratory tests such as serum creatinine and urine albumin-to-creatinine ratio, but these tests may not be routinely performed in all patients or settings. This project will develop a low-cost machine learning model to prioritize individuals for CKD screening using easily available variables such as age, sex, blood pressure, BMI, diabetes status, hypertension status, lifestyle, and socioeconomic indicators.
+:::
+
+::: {.proposal-section}
+### Objectives
+
+- Develop ML models to identify individuals at high risk of undiagnosed CKD.
+- Focus on people with diabetes, hypertension, or both.
+- Use low-cost demographic, questionnaire-based, and simple clinical variables.
+- Compare questionnaire-only models with models using basic physical measurements.
+- Evaluate ML-based screening performance.
+- Assess fairness across demographic and socioeconomic subgroups.
+:::
+
+::: {.proposal-section}
+### Work Plan
+
+1. Review literature on CKD screening, undiagnosed CKD, and ML-based screening prioritization.
+2. Process a population dataset.
+3. Define the high-risk cohort, focusing on adults with diabetes and/or hypertension without known CKD.
+4. Define undiagnosed CKD using eGFR and albuminuria.
+5. Develop and evaluate cost-sensitive and interpretable ML models for screening prioritization.
+6. Write the thesis and prepare results for publication in a conference or journal.
+:::
+:::
+
+::: {.proposal-card}
+::: {.proposal-kicker}
+Proposal 03
+:::
+
+## Supervised Triclustering for CKD Progression Patterns
+
+::: {.proposal-section}
+### Intro
+
+CKD progression involves complex interactions between patients, clinical variables, and time. Traditional supervised ML models often flatten longitudinal data into static features, which may lose important temporal and subgroup-specific patterns. This project will develop a novel supervised triclustering algorithm to discover predictive patterns across three dimensions: patients, clinical features, and time. The method will aim to identify clinically meaningful patient subgroups with shared temporal trajectories that are associated with outcomes such as rapid eGFR decline, CKD stage transition, worsening albuminuria, or dialysis initiation.
+:::
+
+::: {.proposal-section}
+### Objectives
+
+- Develop a novel supervised triclustering algorithm for longitudinal CKD data.
+- Model three dimensions simultaneously: patients, clinical variables, and time.
+- Identify triclusters associated with CKD progression outcomes.
+- Compare the proposed triclustering method with supervised ML baselines.
+- Evaluate both predictive performance and interpretability of discovered patterns.
+- Demonstrate the clinical relevance of discovered CKD progression subgroups.
+:::
+
+::: {.proposal-section}
+### Work Plan
+
+1. Review literature on triclustering, supervised clustering, longitudinal ML, and CKD progression modeling.
+2. Select and preprocess a longitudinal CKD dataset with repeated clinical and laboratory measurements.
+3. Design the supervised triclustering algorithm, including objective function, supervision mechanism, and optimization strategy.
+4. Implement the algorithm and compare it against conventional supervised ML methods.
+5. Evaluate predictive performance, stability, interpretability, and clinical relevance of discovered triclusters.
+6. Write the thesis and prepare results for publication in a conference or journal.
+:::
+:::
+
+::: {.proposal-card}
+::: {.proposal-kicker}
+Proposal 04
+:::
+
+## Triclustering of CSF Proteomics to Discover Molecular Progression Subtypes in Parkinson's Disease
+
+::: {.proposal-section}
+### Intro
+
+This thesis will explore longitudinal cerebrospinal fluid (CSF) proteomics from the PPMI dataset using triclustering methods. The goal is to identify coherent groups of patients, proteins, and timepoints with temporal patterns related to Parkinson's disease progression. Unlike standard clustering, triclustering can reveal disease signatures that appear only in specific patient subgroups and time windows.
+:::
+
+::: {.proposal-section}
+### Objectives
+
+- Build a longitudinal tensor using PPMI CSF proteomics data: patients × proteins × timepoints.
+- Apply existing triclustering algorithms to identify temporal protein modules.
+- Investigate whether discovered triclusters correspond to distinct molecular progression subtypes.
+- Associate triclusters with clinical outcomes such as motor progression, cognitive decline, or disease duration.
+- Propose a time-aware improvement that respects the ordered nature of longitudinal visits.
+- Evaluate the stability, interpretability, and biological relevance of the discovered triclusters.
+:::
+
+::: {.proposal-section}
+### Work Plan
+
+1. Review literature on triclustering, time-series decomposition, and longitudinal proteomics analysis.
+2. Select and preprocess the PPMI CSF proteomics dataset.
+3. Harmonize visits, handle missing values, normalize protein measurements, and construct the patient-protein-time tensor.
+4. Apply baseline triclustering methods and compare their outputs.
+5. Develop a domain-adapted triclustering extension using contiguous time-window constraints.
+6. Analyze discovered triclusters using clinical variables and biological pathway enrichment.
+7. Validate robustness using resampling and sensitivity analysis.
+8. Write the thesis and prepare results for publication in a conference or journal.
+:::
+:::
+
+::: {.proposal-card}
+::: {.proposal-kicker}
+Proposal 05
+:::
+
+## Learning Classifiers from Longitudinal Clinical Data using Discriminative Triclusters
+
+::: {.proposal-section}
+### Intro
+
+Associative classification is a machine learning approach that builds predictive models by mining association rules between patterns and class labels. In three-way data, such as patient-feature-time clinical records or gene-sample-time omics data, triclustering algorithms can uncover coherent subspaces representing subsets of observations, features, and temporal contexts with similar behavior. By integrating triclustering with associative classification, this thesis will explore interpretable, pattern-driven classifiers that use discriminative temporal and contextual patterns for accurate prediction.
+
+The project will develop and evaluate associative classification models that use triclusters as the basis for rule generation and prediction. The proposed approach will extract discriminative triclusters from labeled 3D data, transform these patterns into association rules, and construct classifiers that are both accurate and interpretable, with an emphasis on biomedical and clinical applications.
+:::
+
+::: {.proposal-section}
+### Objectives
+
+- Develop a pipeline for extracting discriminative triclusters from labeled three-way data using state-of-the-art triclustering algorithms.
+- Design and implement associative classification models that use tricluster-derived patterns as association rules for prediction.
+- Benchmark predictive performance and interpretability against conventional classifiers, including Random Forest, XGBoost, and SVM.
+- Compare tricluster-based associative classifiers with triclustering-based feature models.
+- Assess the impact of tricluster quality and diversity on classifier performance.
+- Evaluate the interpretability and clinical relevance of the learned rules in biomedical or clinical prediction tasks.
+:::
+
+::: {.proposal-section}
+### Work Plan
+
+1. Review literature on associative classification, discriminative pattern mining, triclustering, and longitudinal clinical prediction.
+2. Select one or more labeled three-way biomedical datasets, such as patient-feature-time clinical records or omics datasets with temporal structure.
+3. Preprocess the selected data, harmonize temporal contexts, handle missing values, normalize features, and construct the observation-feature-time tensor.
+4. Apply state-of-the-art triclustering algorithms to extract candidate temporal and contextual patterns from labeled 3D data.
+5. Define criteria for discriminative tricluster selection, including class enrichment, statistical significance, coverage, diversity, and stability.
+6. Transform selected triclusters into association rules linking temporal/contextual patterns to target labels.
+7. Implement associative classification models based on tricluster-derived rules, including rule ranking, conflict resolution, and prediction aggregation strategies.
+8. Benchmark the proposed classifiers against conventional ML baselines and triclustering-based feature representations.
+9. Evaluate predictive performance, rule interpretability, robustness, and the relationship between tricluster quality and classifier behavior.
+10. Write the thesis and prepare results for publication in a conference or journal.
+:::
+:::
+
+::: {.content-card}
+## Requirements
+
+Students should have an interest in machine learning, data analysis, and healthcare applications. Programming experience in Python and familiarity with statistics or data mining are recommended.
+:::
+
+::: {.content-card}
+## Contact
+
+E-mail: dfsoares(at)ciencias.ulisboa.pt
+:::
+
+:::

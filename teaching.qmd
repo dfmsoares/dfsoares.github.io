@@ -1,0 +1,127 @@
+---
+title: "Teaching"
+description: "Teaching activities and materials by Diogo F. Soares."
+lang: en
+---
+
+```{=html}
+<div class="header page-header">
+  <div class="subtitle">Assitant Professor. Researcher.</div>
+  <h1>Diogo F. Soares</h1>
+  <img src="images/diogo.jpg" alt="Diogo Soares" class="profile-img" />
+</div>
+```
+
+::: {.content-page}
+
+::: {.page-heading-row}
+[<ion-icon name="arrow-back-outline"></ion-icon>](index.html){.back-home aria-label="Back to home"}
+
+# Teaching {.page-title}
+:::
+
+::: {.content-card}
+## Current Teaching
+
+::: {.course-list}
+
+::: {.course-row .featured}
+::: {.course-title}
+Data Visualization
+:::
+
+::: {.course-meta}
+MSc  
+*Responsible in 2026/2027*
+:::
+:::
+
+::: {.course-row}
+::: {.course-title}
+Fundamentals of Machine Learning
+:::
+
+::: {.course-meta}
+BSc in IT  
+2025/2026
+:::
+:::
+
+::: {.course-row}
+::: {.course-title}
+Introduction to Artificial Intelligence
+:::
+
+::: {.course-meta}
+BSc in CSE  
+2025/2026
+:::
+:::
+
+:::
+:::
+
+::: {.content-card}
+## Previous Teaching
+
+::: {.course-list}
+
+::: {.course-row}
+::: {.course-title}
+Applied Artificial Intelligence
+:::
+
+::: {.course-meta}
+BSc in CSE  
+2024/2025
+:::
+:::
+
+::: {.course-row}
+::: {.course-title}
+Programming I
+:::
+
+::: {.course-meta}
+BSc in IT  
+2022/2023, 2023/2024, 2024/2025
+:::
+:::
+
+::: {.course-row}
+::: {.course-title}
+Construction of Software Systems
+:::
+
+::: {.course-meta}
+BSc in CSE  
+2023/2024
+:::
+:::
+
+::: {.course-row}
+::: {.course-title}
+Programming Labs
+:::
+
+::: {.course-meta}
+BSc in CSE  
+2022/2023
+:::
+:::
+
+::: {.course-row}
+::: {.course-title}
+Intelligent Systems
+:::
+
+::: {.course-meta}
+BSc in IT  
+2021/2022
+:::
+:::
+
+:::
+:::
+
+:::

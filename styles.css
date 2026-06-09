@@ -5,6 +5,28 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
+  #title-block-header {
+    display: none;
+  }
+
+  #quarto-content,
+  main.content {
+    padding: 0;
+    margin: 0;
+    max-width: none;
+  }
+
+  .navbar,
+  header.headroom,
+  .quarto-secondary-nav {
+    display: none !important;
+  }
+
+  .page-navbar #quarto-content,
+  body.nav-fixed {
+    padding-top: 0 !important;
+  }
+
   a {
     text-decoration: none;
   }
@@ -13,9 +35,13 @@ body {
     background: url('images/background-2.jpg') center/cover no-repeat;
     padding: 80px 0 80px;
     height: 300px;
-    margin-top: -30px;
+    margin-top: 0;
     text-align: center;
     position: relative;
+  }
+
+  .page-header {
+    margin-bottom: 150px;
   }
 
   .subtitle {
@@ -168,5 +194,312 @@ body {
     }
     50% {
       opacity: 0;
+    }
+  }
+
+  .back-home {
+    align-items: center;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    height: 42px;
+    justify-content: center;
+    transition: background-color 0.3s;
+    width: 42px;
+    margin: 0;
+  }
+
+  .back-home:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+
+  .back-home ion-icon {
+    font-size: 28px;
+    margin: 0;
+  }
+
+  .page-heading-row {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 42px 1fr 42px;
+    margin: 0 0 24px;
+  }
+
+  .page-heading-row > p {
+    grid-column: 1;
+    margin: 0;
+  }
+
+  .page-heading-row > section.page-title {
+    grid-column: 2;
+    margin: 0;
+    text-align: center;
+  }
+
+  .page-title,
+  .page-heading-row > section.page-title h1 {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+  }
+
+  .content-page {
+    max-width: 640px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+  }
+
+  .content-card {
+    background-color: #1e1e2b;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    padding: 24px 26px;
+  }
+
+  .proposal-card {
+    background-color: #1e1e2b;
+    border-left: 3px solid #E4A164;
+    border-radius: 8px;
+    margin-bottom: 22px;
+    padding: 26px;
+    text-align: left;
+  }
+
+  .proposal-index {
+    background-color: #171723;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-bottom: 22px;
+    padding: 22px 24px;
+  }
+
+  .proposal-index h2 {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+  }
+
+  .proposal-index-list {
+    display: grid;
+    gap: 10px;
+  }
+
+  .proposal-index-item {
+    align-items: center;
+    display: grid;
+    gap: 14px;
+    grid-template-columns: 42px 1fr;
+  }
+
+  .proposal-index-item p {
+    margin-bottom: 0;
+  }
+
+  .proposal-index-item a:not(.proposal-index-number) {
+    color: #ddd;
+  }
+
+  .proposal-index-item a:not(.proposal-index-number):hover {
+    color: #fff;
+  }
+
+  .proposal-index-number {
+    align-items: center;
+    background-color: rgba(228, 161, 100, 0.12);
+    border-radius: 6px;
+    color: #E4A164;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    height: 34px;
+    justify-content: center;
+    letter-spacing: 1px;
+    width: 42px;
+  }
+
+  .proposal-kicker {
+    color: #E4A164;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.78rem;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+
+  .proposal-card h2 {
+    font-size: 1.45rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 22px;
+  }
+
+  .proposal-section {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 18px;
+    margin-top: 18px;
+  }
+
+  .proposal-section h3 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .proposal-section p {
+    margin-bottom: 0;
+  }
+
+  .proposal-section ol,
+  .proposal-section ul {
+    margin-bottom: 0;
+  }
+
+  .content-page h2 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+  }
+
+  .content-page p,
+  .content-page li {
+    color: #ccc;
+    line-height: 1.65;
+  }
+
+  .content-page ul {
+    margin-bottom: 0;
+    padding-left: 1.25rem;
+  }
+
+  .student-list {
+    display: grid;
+    gap: 0;
+  }
+
+  .student-row {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    display: grid;
+    gap: 22px;
+    grid-template-columns: minmax(120px, 0.75fr) minmax(0, 1.5fr) minmax(140px, 0.85fr);
+    padding: 18px 0;
+    text-align: left;
+  }
+
+  .student-row:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  .student-row:last-child {
+    padding-bottom: 0;
+  }
+
+  .student-project,
+  .student-name,
+  .student-program {
+    color: #ddd;
+    line-height: 1.45;
+  }
+
+  .student-project p,
+  .student-program p,
+  .student-name p {
+    margin-bottom: 0;
+  }
+
+  .course-list {
+    display: grid;
+    gap: 0;
+  }
+
+  .course-row {
+    align-items: start;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    display: grid;
+    gap: 22px;
+    grid-template-columns: minmax(0, 1.35fr) minmax(150px, 0.8fr);
+    padding: 17px 0;
+    text-align: left;
+  }
+
+  .course-row:first-child {
+    border-top: 0;
+    padding-top: 0;
+  }
+
+  .course-row:last-child {
+    padding-bottom: 0;
+  }
+
+  .course-row.featured {
+    background: rgba(228, 161, 100, 0.08);
+    border-radius: 6px;
+    margin-bottom: 4px;
+    padding: 16px;
+  }
+
+  .course-title {
+    color: #eee;
+    font-weight: 500;
+    line-height: 1.45;
+  }
+
+  .course-meta {
+    color: #aaa;
+    line-height: 1.45;
+  }
+
+  .course-title p,
+  .course-meta p {
+    margin-bottom: 0;
+  }
+
+  .course-meta em {
+    color: #E4A164;
+    font-style: normal;
+  }
+
+  @media (max-width: 575px) {
+    .header {
+      height: 280px;
+      padding-top: 70px;
+    }
+
+    .header h1 {
+      font-size: 2.25rem;
+    }
+
+    .page-title {
+      font-size: 1.85rem;
+    }
+
+    .links-section {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .link-text {
+      letter-spacing: 1px;
+      font-size: 0.9rem;
+    }
+
+    ion-icon {
+      margin-right: 14px;
+    }
+
+    .student-row {
+      gap: 8px;
+      grid-template-columns: 1fr;
+    }
+
+    .course-row {
+      gap: 8px;
+      grid-template-columns: 1fr;
     }
   }

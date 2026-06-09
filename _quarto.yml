@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - students.qmd
+    - teaching.qmd
+    - msc-proposals-2026-2027.qmd
+
+website:
+  title: "Diogo F. Soares"
+  site-url: "https://dfmsoares.github.io"
+  search: false
+  navbar: false
+
+format:
+  html:
+    css: styles.css
+    theme: cosmo
+    toc: false
+    page-layout: custom
+    anchor-sections: false
+    smooth-scroll: false
+    title-block-banner: false
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    include-after-body:
+      text: |
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

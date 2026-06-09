@@ -1,0 +1,92 @@
+---
+title: "Diogo F. Soares"
+description: "Assistant Professor and researcher at the University of Lisbon."
+lang: en
+---
+
+```{=html}
+<!-- Header -->
+<div class="header">
+  <div class="subtitle">Assitant Professor. Researcher.</div>
+  <h1>Diogo F. Soares</h1>
+  <img src="images/diogo.jpg" alt="Diogo Soares" class="profile-img" />
+</div>
+
+<!-- Social Icons -->
+<div class="social-links">
+  <ul class="social-icons-list text-center list-unstyled d-flex justify-content-center flex-wrap gap-3 mt-5">
+    <li><a href="https://www.linkedin.com/in/diogo-f-soares-027917177/" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+    <li><a href="https://github.com/dfmsoares" aria-label="GitHub"><i class="fa fa-github"></i></a></li>
+    <li><a href="https://scholar.google.com/citations?user=OMpJuA4AAAAJ&hl=en" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a></li>
+    <li><a href="https://orcid.org/0000-0003-3503-0755" aria-label="ORCID"><i class="ai ai-orcid"></i></a></li>
+    <li><a href="https://www.researchgate.net/profile/Diogo-Soares-2" aria-label="ResearchGate"><i class="ai ai-researchgate"></i></a></li>
+    <li><a href="https://www.cienciavitae.pt//pt/D713-C08C-A84A" aria-label="Ciência Vitae"><i class="ai ai-ciencia-vitae"></i></a></li>
+  </ul>
+</div>
+
+<!-- Link Items -->
+<div class="links-section">
+  <a href="https://scholar.google.com/citations?user=OMpJuA4AAAAJ&hl=en">
+    <div class="link-item">
+      <div class="link-text">
+        <ion-icon name="book"></ion-icon>
+        PUBLICATIONS
+      </div>
+      <div class="link-number">01</div>
+    </div>
+  </a>
+  <a href="https://github.com/LxMLearners">
+    <div class="link-item">
+      <div class="link-text">
+        <ion-icon name="code"></ion-icon>
+        SOFTWARE
+      </div>
+      <div class="link-number">02</div>
+    </div>
+  </a>
+  <a href="students.html">
+    <div class="link-item">
+      <div class="link-text">
+        <ion-icon name="people"></ion-icon>
+        STUDENTS
+      </div>
+      <div class="link-number">03</div>
+    </div>
+  </a>
+  <a href="teaching.html">
+    <div class="link-item">
+      <div class="link-text">
+        <ion-icon name="school"></ion-icon>
+        TEACHING
+      </div>
+      <div class="link-number">04</div>
+    </div>
+  </a>
+  <a href="msc-proposals-2026-2027.html">
+    <div class="link-item">
+      <div class="link-text">
+        <ion-icon name="push"></ion-icon>
+        MSc PROPOSALS 26/27 <span class="label">New</span>
+      </div>
+      <div class="link-number">05</div>
+    </div>
+  </a>
+</div>
+
+<!-- Biography -->
+<div class="biography">
+  <h3>Bio.</h3>
+  <p>I am an Assistant Professor at the Department of Informatics, Faculty of Sciences, 
+  University of Lisbon, and a researcher at LASIGE, contributing to the Health and Biomedical Informatics 
+  and Data and Systems Intelligence research lines.</p>
+  <p>My research lies at the intersection of computational innovation and impactful healthcare applications. 
+  I am focusing on unsupervised learning, particularly subspace clustering, and pattern-centric representation learning.</p>
+  <p>I am motivated by problems in patient stratification, disease-progression modeling, 
+  and improving clinical decision support systems.</p>
+  <hr>
+  <p><a href="https://www.lasige.pt">LASIGE</a> and Department of Informatics, <a href="https://www.ciencias.ulisboa.pt">Ciências Ulisboa</a></p>
+  <p>E-mail: dfsoares(at)ciencias.ulisboa.pt</p>
+  <p>Office C6.3.38 @Ciências ULisboa</p>
+</div>
+```
+
