@@ -9,7 +9,7 @@ lang: en
 <div class="header">
   <div class="subtitle">Assitant Professor. Researcher.</div>
   <h1>Diogo F. Soares</h1>
-  <img src="images/diogo.jpg" alt="Diogo Soares" class="profile-img" />
+  <img src="images/diogo.png" alt="Diogo Soares" class="profile-img" />
 </div>
 
 <!-- Social Icons -->
