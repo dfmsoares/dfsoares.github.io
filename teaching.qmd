@@ -27,7 +27,7 @@ lang: en
 
 ::: {.course-row .featured}
 ::: {.course-title}
-Data Visualization
+[Data Visualization](data-visualization-2627.html)
 :::
 
 ::: {.course-meta}

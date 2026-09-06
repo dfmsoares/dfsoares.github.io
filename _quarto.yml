@@ -5,6 +5,7 @@ project:
     - index.qmd
     - students.qmd
     - teaching.qmd
+    - data-visualization-2627.qmd
     - msc-proposals-2026-2027.qmd
 
 website:

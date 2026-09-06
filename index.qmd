@@ -62,15 +62,6 @@ lang: en
       <div class="link-number">04</div>
     </div>
   </a>
-  <a href="msc-proposals-2026-2027.html">
-    <div class="link-item">
-      <div class="link-text">
-        <ion-icon name="push"></ion-icon>
-        MSc PROPOSALS 26/27 <span class="label">New</span>
-      </div>
-      <div class="link-number">05</div>
-    </div>
-  </a>
 </div>
 
 <!-- Biography -->
