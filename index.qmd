@@ -77,7 +77,7 @@ lang: en
   <hr>
   <p><a href="https://www.lasige.pt">LASIGE</a> and Department of Informatics, <a href="https://www.ciencias.ulisboa.pt">Ciências Ulisboa</a></p>
   <p>E-mail: dfsoares(at)ciencias.ulisboa.pt</p>
-  <p>Office C6.3.38 @Ciências ULisboa</p>
+  <p>Office C6.3.25 @Ciências ULisboa</p>
 </div>
 ```
 
